@@ -1,0 +1,51 @@
+/* Etiquetas */
+div{
+	width: 250px;
+	height: 150px;
+	font-size:30;
+	/*float: left;*/
+}
+/* Clases */
+.verde{
+	background: green;
+}
+
+.rojo{
+	background: red;
+}
+
+.derecha{
+	float: right;
+}
+
+.izquierda{
+	float: left;
+}
+
+.azul{
+	background: blue;
+}
+
+.rosa{
+	background: #EB5D5D;
+}
+
+.caja{
+		/* se mantiene cuando se baja el scroll
+	position: fixed; */
+	/* en relacion a la pagina 
+	position: absolute;*/
+	/* la posicion por "default"
+	position: static;*/
+	position: absolute;
+	top: 250px;
+	bottom: 0px;
+	right:250px;
+	left: 250px;
+}
+
+.caja-grande{
+	position: relative;
+	width: 500px;
+	height: 500px
+}

@@ -1,0 +1,27 @@
+/* Estilos de Clases */
+
+
+.titulo{ 
+	text-decoration-color: black;
+	text-decoration-style: bold;
+	font-size: 24px;
+ }
+
+.grande{
+	font-size: 12px
+}
+
+.subtitulo {
+	font-style:italic;
+
+}
+
+
+/* Estilos de secciones */
+
+ h1 {
+ 	color:white;
+ }
+
+
+
