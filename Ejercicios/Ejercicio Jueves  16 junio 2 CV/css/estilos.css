@@ -14,10 +14,7 @@ body{
 	background: white;
 	font-family: Arial,Verdana;
 	/*background-color: #00C4F1;*/
-
-
-
-}
+]
 
 /*=.==.==.==.==.==.==.==.==.==.==.==.==.==.==.=*/
 
@@ -67,4 +64,8 @@ body{
 
 .circulo{
 	border-radius: 50%;
+}
+
+.circulo20{
+	border-radius: 20%;
 }
