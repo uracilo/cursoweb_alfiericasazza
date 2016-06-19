@@ -1,0 +1,163 @@
+/*
+Gama de colores el dorado
+https://color.adobe.com/es/Copia-de-Aztec-Road-to-El-Dorado-color-theme-7266188/edit/?copy=true
+
+ROSA 		#80004E
+NARANJA 	#F28000
+AMARILLO 	#FFC900
+OCRE 		#703700
+ROJO 		#D52200
+*/
+
+
+body{
+	background color: #ABABAB;
+	margin:0;
+	padding: 0;
+	font-family: arial;
+}
+
+
+/*Menu Navegación*/
+.menu{
+	background: #ae6634;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	align-content: right;
+	list-style-position: none;
+	list-type: none;
+	margin: 0px;
+	padding: 0px;
+	opacity: .95;
+}
+.menu ul{
+	margin: 0;
+}
+
+.menu ul li{
+	display: inline;
+	list-style: none;
+}
+
+.menu ul a li {
+	//background: #F28000;
+	padding: 10px 10px;
+	text-decoration:none;
+	color: white; 
+	list-style-type: none;
+	color:#4b486f;
+	font-size: 20px;
+	display: inline;
+	opacity: none;
+}
+
+.menu ul li:hover a{
+	background: black;
+	list-style-position: none;
+}
+
+/*Titulo Principal*/
+.titulop {
+	margin: 0;
+	color: #703700;
+	font-size: 16px;
+	padding: 15px 0; /*margin: 15px 0;*/
+	padding-left: 10px;
+
+}
+/*Introduccion */
+
+.introduccion{
+	display: block;
+	width: 50%;
+	text-align: center;
+	margin: auto;
+	padding-bottom: 35px;
+	border-bottom: 1px solid gray;
+}
+
+.borde {
+	border:1px solid gray;
+}
+
+
+img {
+	max-width: 100%;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+.grande {
+	font-size: 4em;
+}
+
+.subtitulo {
+	font-family: 'Pacifico', cursive;
+}
+
+a { 
+	color: 3B5954 
+}
+
+.quitar-float{
+	float: none;
+}
+
+
+.titulo {
+	font-family: 'Merienda One', cursive;
+}
+
+
+
+.mediano { font-size-adjust: 4em }
+.azulclaro {color: 3B5954}
+.gris{color:26221D}
+.mostaza {color: F2600C}
+.marron {color: A62103}
+
+.espacio-derecha {margin-right: 2em }
+
+
+
+.se-gris{
+	background-color: #eee 
+
+}
+
+.padding-largo{
+	padding: 5px 10px;
+
+}
+
+.inline-block {
+	float: none;
+	display: inline-block;
+
+}
+
+.azul{
+
+color:3B5954 ;  }
+
+
+.vete-arriba {
+	vertical-align: 
+}
+
+.delay{
+	animation-delay: 1s;
+}
+
+.box{
+  position: static;
+ 
+  background-color: none;
+
+
+}
+
+.float{
+	position: fixed;
+}
