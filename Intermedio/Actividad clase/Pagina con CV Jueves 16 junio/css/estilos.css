@@ -13,3 +13,40 @@ body {
 .center{
 	align-content: center;
 }
+
+
+.padding{
+	padding-top: 200px;
+}
+
+
+@media (max-height: 375px){
+	body{
+		font-color: red;
+		background-color: black;
+	}
+}
+
+
+@media (min-height:375px) and (max-height:850px ){
+	body {
+	display: none;
+	}
+}
+
+@media (min-height:850px ) and  (max-height:2000px){
+	.encabezado{
+		font-size: 50px;
+		color: blue;
+}
+}
+
+
+@media (min-height:2000px ){
+	body{
+		background-color: green;
+
+
+
+	}
+}
