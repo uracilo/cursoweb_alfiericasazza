@@ -19,70 +19,91 @@ body{
 
 }
 
-/*=.==.==.==.==.==.==.==.==.==.==.==.==.==.==.=*/
-
-
-.titulo_principal{
-	background: #00005F;
-}
-.menu-navegacion{
-	text-align: center;
-
-
-}
-.menu-navegacion ul{
-	margin: 10px;
-	padding: 10px;
-}
-.menu-navegacion li{
-	display: inline;	
-}
-.menu-navegacion a{
-	margin: 10px;
-	padding: 10px;
-	text-decoration: none;
-	background: #006EB6;
-	color: #0052DE;
-}
 .menu-navegacion li.activo a,
 .menu-navegacion li:hover a{
 	background: #706565;
 	border-radius: 70%;
 }
-.informacion-personal{
-	text-align: center;
-	margin:50px;
-	border-top:2px solid #ccc;
+
+
+
+
+/*=.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.=*/
+/*=.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.==.=*/
+
+img {
+	max-width: 100%;
 }
 
-.link{
-		text-decoration: none;
-		font-style: italic;
-		font-weight: 900;
-		color:darkblue;
+body{
+	font-family: 'Lato', sans-serif;
+}
+a { 
+	color: 3B5954 
+}
+
+.quitar-float{
+	float: none;
+}
+
+.espacio-arriba {
+	margin-top: 100px 
+}
+
+.titulo {
+	font-family: 'Merienda One', cursive;
+}
+
+.grande {
+	font-size: 4em;
+}
+
+.subtitulo {
+	font-family: 'Pacifico', cursive;
+}
+
+.mediano { font-size-adjust: 4em }
+.azulclaro {color: 3B5954}
+.gris{color:26221D}
+.mostaza {color: F2600C}
+.marron {color: A62103}
+
+.espacio-derecha {margin-right: 2em }
+
+.no-Lista{
+	margin: 0px
+	padding: 0px;
+}
+
+.no-Lista nav li {
+	list-style-type: none;
+}
+
+.se-gris{
+	background-color: #eee 
 
 }
 
+.padding-largo{
+	padding: 5px 10px;
 
-.quitarlista{
-	list-style: none;
 }
 
-.circulo{
-	border-radius: 50%;
+.inline-block {
+	float: none;
+	display: inline-block;
+
 }
 
+a, .azul{
+
+color:3B5954 ;  }
 
 
-
-
-.negritas{
-	font-style: bold;
-	font-style: verdana;
-	font-size: 15px;
+.vete-arriba {
+	vertical-align: 
 }
 
-
-.interlineado{
-	line-height: 2.1
+.delay{
+	animation-delay: 1s;
 }

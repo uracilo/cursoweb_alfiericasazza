@@ -1,0 +1,43 @@
+/*este es el gran trukini para que sea responsiva*/
+/*@media (max-width: 375px), (max-height: 300px) {
+
+	.titulo{
+		background-color: black;
+		}
+		.mediana{
+			display: inline;
+		}
+
+}*/
+
+
+@media (max-width:375px){
+	body{
+		font-color: red;
+		background-color: black;
+	}
+}
+
+
+@media (min-width:375px) and (max-width:850px ){
+	body {
+	display: none;
+	}
+}
+
+@media (min-width:850px ) and  (max-width:2000px){
+	.encabezado{
+		font-size: 50px;
+		color: blue;
+}
+}
+
+
+@media (min-width:2000px ){
+	body{
+		background-color: green;
+
+
+
+	}
+}
