@@ -20,6 +20,11 @@ body{
 	content: center;
 }
 
+.jumbutton{
+	background: url(ulr);
+
+}
+
 
 /*Menu Navegación*/
 .menu{
@@ -163,4 +168,19 @@ color:3B5954 ;  }
 
 .float{
 	position: fixed;
+}
+
+
+.paddingleft{
+	position: relative;
+	left: 100px;
+	top: 20px
+
+}
+
+
+.centerimage{
+	position: relative;
+	left: 250px;
+
 }
